@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import org.springframework.ui.Model;
 
-import jakarta.servlet.http.HttpSession;
+import javax.servlet.http.HttpSession;
 
 public class MainController{
     @GetMapping("/")
