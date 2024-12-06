@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the form and textarea */
+form {
+    text-align: center; /* Center the text inside the form */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#sheet{
+    position: relative;
+    width: 30vw; /* Set the width */
+    height: 70vh; /* Set the height */
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none; /* Optional: Prevent resizing */
+}
+
+#save-button{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
