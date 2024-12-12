@@ -8,8 +8,11 @@
 </head>
 <body>
     <form action="/submit" method="POST">
-        <button type="submit" id="save-button">Save</button>
         <textarea id="sheet" name="textArea" rows="10" cols="100" placeholder="Type your text here..." required></textarea><br><br>
+        <button type="submit" id="save-button">Save</button>
     </form>
+    
+    <!-- Display success message -->
+    <p th:if="${message}" th:text="${message}"></p>
 </body>
 </html>
